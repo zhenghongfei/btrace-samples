@@ -37,7 +37,7 @@ import static com.sun.btrace.BTraceUtils.*;
  * creation [like in "throw new FooException();"] rather that be stored and
  * thrown later.
  */
-//¿ÉÒÔ²¶»ñExceptionBean1¡¢ExceptionBean2¡¢ExceptionBean3µÄÒì³£ĞÅÏ¢
+//å¯ä»¥æ•è·ExceptionBean1ã€ExceptionBean2ã€ExceptionBean3çš„å¼‚å¸¸ä¿¡æ¯
 @BTrace
 public class OnThrow {
 	// store current exception in a thread local

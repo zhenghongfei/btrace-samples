@@ -6,7 +6,7 @@ import com.sun.btrace.annotations.Location;
 import com.sun.btrace.annotations.OnMethod;
 
 /**
- * ¿ªÆô·Ç°²È«Ä£Ê½£¬¿ÉÒÔÖ±½Óµ÷ÓÃ´ı¼à¿ØÓ¦ÓÃ³ÌĞòÖĞÀàµÄ·½·¨,ÒÔÏÂÁ½¸ö²ÎÊıÍ¬Ê±¿ªÆô
+ * å¼€å¯éå®‰å…¨æ¨¡å¼ï¼Œå¯ä»¥ç›´æ¥è°ƒç”¨å¾…ç›‘æ§åº”ç”¨ç¨‹åºä¸­ç±»çš„æ–¹æ³•,ä»¥ä¸‹ä¸¤ä¸ªå‚æ•°åŒæ—¶å¼€å¯
  * <p>
  * <li>bin/btrace.bat -Dcom.sun.btrace.unsafe=true
  * <li>@BTrace(unsafe=true)
@@ -19,6 +19,6 @@ public class ExceptionBean3Script {
 	@OnMethod(clazz = "com.zhenghongfei.btracesamples.exception.ExceptionBean3", method = "traceException", location = @Location(Kind.CATCH))
 	public static void traceCatch(Exception e) {
 		e.printStackTrace();
-		// e.printStackTrace(); ×¢ÊÍµô¸ÃĞĞ´úÂë£¬ÔÙ´ÎÔËĞĞ½Å±¾¿ÉÒÔÇå³ıÒµÎñ³ÌĞòÊä³öÒì³£ĞÅÏ¢
+		// e.printStackTrace(); æ³¨é‡Šæ‰è¯¥è¡Œä»£ç ï¼Œå†æ¬¡è¿è¡Œè„šæœ¬å¯ä»¥æ¸…é™¤ä¸šåŠ¡ç¨‹åºè¾“å‡ºå¼‚å¸¸ä¿¡æ¯
 	}
 }

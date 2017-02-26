@@ -1,7 +1,7 @@
 package com.zhenghongfei.btracesamples.exception;
 
 /**
- * 使用Btrace打印业务代码中抛出的异常信息
+ * 浣跨敤Btrace鎵撳嵃涓氬姟浠ｇ爜涓姏鍑虹殑寮傚父淇℃伅
  *
  * @author Hongfei
  */

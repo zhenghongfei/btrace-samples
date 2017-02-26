@@ -1,7 +1,7 @@
 package com.zhenghongfei.btracesamples.exception;
 
 /**
- * Ê¹ÓÃBtrace´òÓ¡ÒµÎñ´úÂëÖĞÎ´Êä³öµÄÒì³£ĞÅÏ¢
+ * ä½¿ç”¨Btraceæ‰“å°ä¸šåŠ¡ä»£ç ä¸­æœªè¾“å‡ºçš„å¼‚å¸¸ä¿¡æ¯
  * @author Hongfei
  */
 public class ExceptionBean2 {

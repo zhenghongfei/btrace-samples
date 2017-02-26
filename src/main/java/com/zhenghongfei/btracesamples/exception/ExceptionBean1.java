@@ -1,10 +1,10 @@
 package com.zhenghongfei.btracesamples.exception;
 
 /**
- * ʹ��Btrace��ӡҵ��������쳣����û����Ϣ��
+ * 使用Btrace打印业务代码中异常被吞没的信息：
  * <p>
- * <li>JDK5��6��7�쳣����Ϊ��20707
- * <li>JDK8�쳣����Ϊ��115717
+ * <li>JDK5、6、7异常次数为：20707
+ * <li>JDK8异常次数为：115717
  */
 public class ExceptionBean1 {
 
